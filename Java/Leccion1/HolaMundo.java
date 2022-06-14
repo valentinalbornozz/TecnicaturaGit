@@ -1,5 +1,8 @@
 package Leccion1;
 
+import javax.naming.ldap.SortKey;
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+import javax.xml.transform.Source;
 
 public class HolaMundo {
 
@@ -183,7 +186,7 @@ public class HolaMundo {
         else
             System.out.println("Es un número Impar");*/
 
-        int varNum1 = 1, varNum2 = 4;;
+        /*int varNum1 = 1, varNum2 = 4;;
         var varNum3 = varNum1 + 6 - varNum2; //Una operación
         System.out.println("varNum3 = " + varNum3);
 
@@ -198,6 +201,128 @@ public class HolaMundo {
         varNum3 /= 4;
         System.out.println("varNum3 = " + varNum3);
         varNum1 %= 6;
-        System.out.println("varNum1 = " + varNum1);
+        System.out.println("varNum1 = " + varNum1);*/
+
+        //Operadores unarios: Cambio de Signo
+        /*var varA = 7;
+        var varB = -varA;
+        System.out.println("varA = " + varA);
+        System.out.println("varB = " + varB); //El resultado será un número negativo
+
+        //Operador de Negación
+        var varC = true; //Esta literal por default en Java es de tipo boolean
+        var varD = !varC; //Aqui esta invirtiendo el valor
+        System.out.println("varC = " + varC);
+        System.out.println("varD = " + varD);
+
+        //Operadores Unarios de Incremento: preincremento
+        var varE = 9; //Se va a modificar su valor
+        var varF = ++varE; //Simbolo antes de la variable
+        //Primero se incrementa la variable y despues se usa su valor 
+        System.out.println("varE = " + varE); //Se incremente en la unidad
+        System.out.println("VarF = " + varF); //Va a sumar uno
+
+        //Postincremento (el simbolo después de la variable)
+        var varG = 3;
+        var varH = varG++; //Primero el valor de la variable, luego el incremento
+        System.out.println("varG = " + varG);
+        System.out.println("varH = " + varH);
+
+        //Operadores Unarios de decremento: Predecremento
+        var varI = 4;
+        var varJ = --varI;
+        System.out.println("varI = " + varI);
+        System.out.println("varJ = " + varJ);
+
+        // Postdecremento
+        var varK = 8;
+        var varL = varK--; //Primero el valor de la variable luego queda el decremento
+        System.out.println("varK = " + varK);
+        System.out.println("varL = " + varL);*/
+
+        //Operadores de igualdad y relaciones 
+        /*var aNum = 5;
+        var bNum = 4;
+        var cNum = (aNum == bNum);
+        System.out.println("cNum = " + cNum);
+
+        var dNum = aNum != bNum;
+        System.out.println("dNum = " + dNum);
+
+        var cadenaA = "hello";
+        var cadenaB = "bye bye";
+        var cVar = cadenaA == cadenaB;
+        System.out.println("cVar = " + cVar);
+
+        var fVar = cadenaA.equals(cadenaB);
+        System.out.println("fVar = "+ fVar);
+     
+        var gVar = aNum != bNum; //> >= < <=  == !=
+        System.out.println("gVar = " + gVar;
+
+        if (bNum % 2 == 0) {
+            System.out.println("El numero es Par");
+        } else {
+            System.out.println("El numero es Impar");
+        }
+
+        var edad = 30;
+        var adulto = 18;
+        if (edad >= adulto) {
+            System.out.println("Es mayor de edad");
+        } 
+        else {
+            System.out.println("Es menor de edad");
+        }
+
+        var edad = 15;
+        var adulto = 18;
+        if (edad >= adulto) {
+            System.out.println("Es mayor de edad");
+        } 
+        else {
+            System.out.println("Es menor de edad");
+        }*/
+
+        //Operador  condicional And
+        /*var valorA = 7;
+        var valorMinimo = 0; //rango del 0 al 10
+        var valorMaximo = 10; 
+        var respuestas = valorA >= 0 && valorA <= 10;
+
+        if (respuestas) {
+            System.out.println("Estas dentro del rango establecido");
+        } else {
+            System.out.println("Esta fuera del rango establecido");
+        }
+        
+        var vacaciones = false;
+        var diaLibre = true;
+        if(vacaciones || diaLibre){
+            System.out.println("Papá puede asistir al juego de su hijo");
+        }else {
+            System.out.println("Papá no puede asistir al juego de su hijo");
+        }*/
+
+        //Operador Ternario
+        /*var resultadoT = (5 > 8) ? "Es Par" : "Es Impar";
+        System.out.println("resultadoT = " + resultadoT);
+
+        var numeroT = 4;
+        var resultadoT = (numeroT % 2 == 0) ? "Es Par" : "Es Impar";
+        System.out.println("resultadoT = " +resultadoT);*/
+
+        var x = 5;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x= " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+
+        var solucionAritmetica = 4 + 5 *6 / 3; //4 + ((5*6) /3) = 30/3= 10 + 4= 4
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+
+        solucionAritmetica = (4+5) * 6 / 3; //4 + 5 = 9 *6 = 54/3 = 18
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
     }
 }
