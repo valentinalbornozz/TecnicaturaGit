@@ -263,7 +263,7 @@ print(diccionario2)
 seleccionArgentina = {
     10: {'Nombre': 'Lionel Messi', 'Edad': 35, 'Altura': 1.70, 'Precio': '50 millones', 'Posición': 'Extremo Derecho'},
     11: {'Nombre': 'Ángel Di María', 'Edad': 34, 'Altura': 1.80, 'Precio': '12 millones', 'Posición': 'Extremo Derecho'},
-    24: {'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77, 'Precio': '35 millones', 'Posición': 'Media Punta'},
+    21: {'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77, 'Precio': '35 millones', 'Posición': 'Media Punta'},
     19: {'Nombre': 'Nicolás Otamanedi', 'Edad': 34, 'Altura': 1.83, 'Precio': '3.5 millones', 'Posición': 'Defensa Central'},
     1: {'Nombre': 'Franco Armani', 'Edad': 35, 'Altura': 1.89, 'Precio': '3.5 millones', 'Posición': 'Portero'},
     7: {'Nombre': 'Rodrigo de Paul', 'Edad': 28, 'Altura': 1.80, 'Precio': '40 millones', 'Posición': 'Mediocentro'},
@@ -321,3 +321,7 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Atendiendo el cliente: {seRetira}')
 print(cola)
+
+# Seguimos mostrando como recorrer un diccionario con el ciclo for
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
