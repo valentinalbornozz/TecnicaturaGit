@@ -1,8 +1,8 @@
-package Leccion2.EjercicioCiclos01.ciclos01;
+package Leccion2.EjercicioCiclos01;
 
 import javax.swing.JOptionPane;
 
-public class Ejercicio01 {
+public class EjercicioCiclos01 {
     public static void main(String[] args) {
         int numero, cuadrado;
         
