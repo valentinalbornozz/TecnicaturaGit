@@ -2,8 +2,6 @@ package Leccion1.condicialEjercicio_2;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);

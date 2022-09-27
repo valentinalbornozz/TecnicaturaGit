@@ -2,8 +2,6 @@ package Leccion1.condicionalEjercicio_3;
 
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementScanner14;
-
 public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
