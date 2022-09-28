@@ -68,3 +68,26 @@ def listarNombres(*nombres): # Normalmente se utiliza: *args
         print(nombre)
 listaNombres('Lucas', 'Jose', 'Claudia', 'Rosa', 'Maria')
 listaNombres('Marcos', 'Daniel', 'Romina', 'Pepe', 'Marcela', 'Carlos')
+
+def listarTerminos(): # No recibe nada, nada se va a mostrar
+    listarTerminos(IDE='Integrated Develment Enviroment', PK='Primaruy Key')
+    listarTerminos(Nombre='Leonel Messi')
+
+
+def desplegarNombres(nombres):
+    desplegarNombres(nombres2)
+    desplegarNombres('Carla')
+    # desplegarNombres(10, 11) # No es un objeto iterable
+    desplegarNombres((10, 11)) # La convertimos a un tupla
+    desplegarNombres([22, 55]) # La converitmos en una lista
+
+
+# Funciones Recursivas
+def factorial(numero):
+    if numero == 1: # Caso Base
+        return 1
+    else:
+        return numero * factorial(numero-1) # caso Recursivo
+
+resultado = factorial(5) # Lo hacemos en código duro
+print(f'El factorial del número 5 es: {resultado}')
