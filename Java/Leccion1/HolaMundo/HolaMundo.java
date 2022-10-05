@@ -1,4 +1,4 @@
-package Leccion1;
+package Leccion1.HolaMundo;
 
 import javax.naming.ldap.SortKey;
 import javax.swing.plaf.synth.SynthOptionPaneUI;
