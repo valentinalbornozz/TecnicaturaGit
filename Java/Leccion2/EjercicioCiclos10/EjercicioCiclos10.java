@@ -1,4 +1,4 @@
-package Leccion1.Ejercicio10;
+package Leccion2.EjercicioCiclos10;
 
 import javax.swing.JOptionPane;
 

@@ -1,0 +1,36 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>450</x><y>250</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Figura&gt;&gt;
+-nLados:int
+--
+-id: Long
+_-ClassAttribute: Long_
+--
+Figura (int nLados)
+gerNlados();
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>370</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>430</y><w>340</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;320;20</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>430</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>270;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>760</x><y>500</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Cuadrado&gt;&gt;
+--
+-nLados: int
+-lado: float;
+--
+Cuadrado(int nLados)
+getNLado (): int
+area Cuadrado (): float
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>850</x><y>440</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>500</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Triangulo&gt;&gt;
+--
+-nLados: int
+-l1, l2, l3: float;
+--
+Triangulo (int nLados)
+getNLado (): int
+area Triangulo(): float
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>270</y><w>140</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>120;10;40;30;120;60</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>440</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
