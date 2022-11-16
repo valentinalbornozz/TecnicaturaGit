@@ -1,4 +1,4 @@
-from Persona import *
+from Lección10.Persona import *
 
 persona1 = Persona('Osvaldo', 40)
 print(persona1)

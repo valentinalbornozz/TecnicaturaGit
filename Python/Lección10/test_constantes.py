@@ -1,5 +1,5 @@
-from Constantes import *
-from Constantes import Matematicas as Mate
+from Lección10.Constantes import *
+from Lección10.Constantes import Matematicas as Mate
 
 print(MI_CONSTANTE)
 # MI_CONSTANTE = 'Aquí esta el nuevo valor para esta constante'
