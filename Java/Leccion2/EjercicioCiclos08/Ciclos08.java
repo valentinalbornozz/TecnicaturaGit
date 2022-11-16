@@ -1,5 +1,7 @@
 package Leccion2.EjercicioCiclos08;
 
+import java.util.Scanner;
+
 public class Ciclos08 {
     Scanner entrada = new Scanner(System.in)
         System.out.println("Digite un número: ");
