@@ -1,4 +1,4 @@
-package Leccion1.HolaMundo;
+package Leccion1.HolaMundo.PasoPorValor;
 
 public class PasoPorValor {
     public static void main(String[] args) {

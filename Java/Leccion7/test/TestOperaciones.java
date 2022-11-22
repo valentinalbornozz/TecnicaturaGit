@@ -1,16 +1,16 @@
-package Lección7.test;
+package Leccion7.test;
 
-import operaciones.Operaciones
+import Leccion7.Operaciones.operaciones;
 
 public class TestOperaciones {
     public static void main(String[] args) {
-        var resultado = Operaciones.sumar(7, 9);
+        var resultado = operaciones.sumar(7, 9);
         System.out.println("resultado = " + resultado);
         
-        var resultado2 = Operaciones.sumar(5.0, 7);
+        var resultado2 = operaciones.sumar(5.0, 7);
         System.out.println("resultado2 = " + resultado2);
         
-        var resultado3 = Operaciones.sumar(8, 6L);
+        var resultado3 = operaciones.sumar(8, 6L);
         System.out.println("resultado3 = " + resultado3);
     }
 }

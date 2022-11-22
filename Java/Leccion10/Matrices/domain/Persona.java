@@ -1,4 +1,4 @@
-package Leccion9.Arreglos.domain;
+package Leccion10.Matrices.domain;
 
 public class Persona {
     private String nombre;

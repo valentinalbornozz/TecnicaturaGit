@@ -1,8 +1,9 @@
 package Leccion6.Herencia.test;
 
-import domain.Cliente;
-import domain.Empleado;
 import java.util.Date;
+
+import Leccion6.Herencia.domain.Cliente;
+import Leccion6.Herencia.domain.Empleado;
 
 public class TestHerencia {
     public static void main(String[] args) {

@@ -1,20 +1,16 @@
-package Leccion2.EjercicioCiclos02;
-
+package Leccion2.EjercicioCiclo02;
 import javax.swing.JOptionPane;
-
-public class ciclos2 {
+public class Ciclos02 {
     public static void main(String[] args) {
-
-
         var numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
         while(numero != 0){
             if(numero > 0){
-               JOptionPane.showMessageDialog(null, "El número "+numero+" es POSITIVO");
+                JOptionPane.showMessageDialog(null, "El número "+numero+" es POSITIVO");
             }
-            else {
+            else{
                 JOptionPane.showMessageDialog(null, "El número "+numero+" es NEGATIVO");
             }
-            numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
+            numero = Integer.parseInt(JOptionPane.showInputDialog("Digite otro número: "));
         }
         JOptionPane.showMessageDialog(null, "El número "+numero+" finaliza el programa");
     }

@@ -1,8 +1,8 @@
-package Leccion3.LeccionClasesObjetos;
+package Leccion3.LeccionClasesObjetos.Clases;
 
 public class Persona {
     // Atributos de la clase
-    String nombre;
+    public String nombre;
     String apellido;
 
     // Metodos de la clase(Acciones)

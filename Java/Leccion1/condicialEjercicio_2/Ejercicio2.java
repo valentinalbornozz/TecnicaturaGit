@@ -8,19 +8,18 @@ public class Ejercicio2 {
         System.out.println("Digite un número de mes: ");
         var mes = Integer.parseInt(entrada.nextLine());
         var estacion = "Estación desconocida";
-        switch (mes) {
+        switch(mes){
             case 1: case 2: case 3:
                 estacion = "Verano";
                 break;
             case 4: case 5: case 6:
-                estacion = "Otinio";
+                estacion = "Otonio";
                 break;
             case 7: case 8: case 9:
                 estacion = "Invierno";
                 break;
             case 10: case 11: case 12:
                 estacion = "Primavera";
-                break;
         }
         System.out.println("estacion = " + estacion);
     }

@@ -1,4 +1,4 @@
-package Lección7.Operaciones;
+package Leccion7.Operaciones;
 
 public class operaciones {
     public static int sumar(int a, int b){

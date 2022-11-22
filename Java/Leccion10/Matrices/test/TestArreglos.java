@@ -1,4 +1,4 @@
-package Leccion9.Arreglos.test;
+package Leccion10.Matrices.test;
 
 public class TestArreglos {
     public static void main(String[] args) { //lado derec. instanciamos un objeto de tipo object

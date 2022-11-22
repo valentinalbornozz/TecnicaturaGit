@@ -8,11 +8,11 @@ public class Ciclos03 {
         int numero;
         System.out.println("Digite un número: ");
         numero = Integer.parseInt(entrada.nextLine());
-        while (numero != 0) {
-            if(numero % 2== 0) {
+        while(numero != 0){
+            if(numero % 2 == 0){
                 System.out.println("El número ingresado "+numero+" es PAR");
             }
-            else {
+            else{
                 System.out.println("El número ingresado "+numero+" es IMPAR");
             }
             System.out.println("Digite otro número: ");

@@ -1,4 +1,4 @@
-package Leccion9.Arreglos.test;
+package Leccion10.Matrices.test;
 
 import Leccion10.Matrices.domain.Persona;
 

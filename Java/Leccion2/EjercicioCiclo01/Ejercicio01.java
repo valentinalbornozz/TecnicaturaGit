@@ -1,17 +1,16 @@
-package Leccion2.EjercicioCiclos01;
+package Leccion2.EjercicioCiclo01;
 
 import javax.swing.JOptionPane;
 
-public class EjercicioCiclos01 {
+public class Ejercicio01 {
     public static void main(String[] args) {
         int numero, cuadrado;
         
         numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
-        while(numero >= 0) {
-            cuadrado = (int)Math.pow(numero,2);
+        while(numero >= 0){ // Mientras el número sea igual a cero o positivo
+            cuadrado = (int)Math.pow(numero, 2);
             System.out.println("El numero "+numero+" elevado al cuadrado es: "+cuadrado);
-            System.out.println("Digite otro numero: ");
-            numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
+            numero = Integer.parseInt(JOptionPane.showInputDialog("Digite otro número: "));
         }
         System.out.println("El programa a finalizado por numero negativo");
     }
