@@ -62,6 +62,7 @@ else{
 }
 }
 
+// Operador ternario
 let resultado3 = edad2 >= 18 ? "Puede votar" : "Muy joven para votar";
 console.log(resultado3);
 
