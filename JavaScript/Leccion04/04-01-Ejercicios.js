@@ -1,68 +1,39 @@
-// Ejercicio 1: Calcular estación del año
-let mes = 9;
-let estación; //Undefined
+//Ejercicio: Si el padre puede asistir al juego de su hijo
 
-if(mes == 1 || mes == 2 || mes == 12) {
-    estación = "Verano";
-}
-else if(mes == 3 || mes == 4 || mes == 5){
-    estación = "Otoño";
-}
-else if(mes == 6 || mes == 7 || mes == 8){
-    estación = "Invierno";
-}
-else if(mes == 9 || mes == 10 || mes == 11){
-    estación = "Otoño";
+let vacaciones = false, diaDescanso = false;
+if(vacaciones || diaDescanso){
+    console.log("El padre puede asistir al juego")
 }
 else{
-    estación = "Valor incorrecto";
+    console.log("El padre no puede asistir al juego")
 }
-console.log("El valor corresponde a la estación de: "+ estación);
 
+//Operador ternario
+//Ejercicio: número par e impar
+let resultado2 = 3 > 2 ?"Verdadero" : "Falso";
+console.log(resultado2)
+let numero = 9;
+resultado2 = numero % 2 == 0 ? "Es un número par" : "Es un numero impar";
+console.log(resultado2)
+//Convertir String a number
+let miNumero = "18"; //Esto es una cadena
+console.log(typeof miNumero);
+let edad = Number(miNumero); //Esto es una funcion
+console.log(typeof edad);
 
-// Ejercicio 2: Hora del día
-/* 
-de 6 a 11 nos saluda: Good Morning
-de 12 a 16 nos saluda: Good Afternoon
-de 17 a 19 nos saluda: Good Evening
-de 20 a 23 nos saluda: Good Night
-Trabajaremos con 24 horas
-*/
-let horaDia = 9;
-let mensaje;
-if(horaDia >= 6 && horaDia <= 11){
-    mensaje = "Good Morning";
-}
-else if(horaDia >= 12 && horaDia <= 16){
-    mensaje =  "Good Afternoon"
-}
-else if(horaDia >= 17 && horaDia <= 19){
-    mensaje =  "Good Evening"
-}
-else if(horaDia >= 20 && horaDia <= 23){
-    mensaje =  "Good Night"
+//Funcion isNaN
+if(isNaN(edad)){ //No es un numero = is Not a Number(devuelve un resultado booleano)
+    console.log("Esta variable no contiene solo numeros")
 }
 else{
-    mensaje = "Valor Incorrecto"
+    if( edad >= 18){
+        console.log("Puede votar");
+    }
+else{
+        console.log("No puede votar");
+    }
 }
-console.log(mensaje);
 
-// Estructura switch(la sintaxis es igual a java)
-switch(mes){//No solo se pueden utilizar número, también cadenas
-    case 1: case 2: case 12:
-    estación = "Verano";
-    break;
-    case 3: case 4: case 5:
-    estación = "Otoño";
-    break;
-    case 6: case 7: case 8:
-    estación = "Invierno";
-    break;
-    case 9: case 10: case 11:
-    estación = "Primavera";
-    break;
-    default:
-        estación = "Valor Incorrecto";
-}
-console.log("Bienvenido a la estacón de: "+estación);
 
+let resultado3 = edad >= 18 ? "Puede votar" : "No puedo votar";
+console.log(resultado3);
