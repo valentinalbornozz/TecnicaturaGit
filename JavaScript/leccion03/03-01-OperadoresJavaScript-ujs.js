@@ -1,22 +1,22 @@
-// EJercicio para enocntra números pares
-
-let parInpar = 1;
-if(parInpar % 2 == 0) {
-    console.log("Es un número PAR");
-}
-else {
-    console.log("Es un número IMPAR");
-}
-
-// Ejercicio: es mayor de edad
-let edad = 18, adulto = 18;
-if (edad >= adulto){
-    console.log('Usted es una persona adulta');
+/*Ejercicio para encontrar numeros pares 
+*/
+let parInpar = 10;
+if(parInpar % 2 == 0){
+    console.log("Es un número Par");
 }
 else{
-    console.log('Usted es una persona menor de edad');
+    console.log("Es un número Impar");
 }
 
+//Ejercicio Mayor de edad
+
+let edad = 20, adulto = 18;
+if(edad >= adulto){
+    console.log("Es una persona Adulta")
+}
+else{
+    console.log("Es una persona menor de edad")
+}
 //Ejercicio: dentro de un rango
 
 let dentroRango = 5; //Aqui vamos ir cambiando el valor
@@ -28,41 +28,4 @@ else{
     console.log('Esta fuera del rango')
 }
 
-
-// Ejercicio: Si el padre puede asistir al juego de su hijo
-let vacaciones = false, diaDescanso = false;
-if( vacaciones || diaDescanso) {
-    console.log("El padre puede asistir al juego de su hijo")
-}
-else{
-    console.log("El padre No puede asistir al juego de su hijo")
-}
-
-//Operador ternario
-let resultado2 = 3 > 2 ? "verdadero" : "Falso";
-console.log(resultado2);
-let numero = 9;
-resultado2 = numero % 2 == 0 ? "Es un número PAR" : "Es un número IMPAR";
-console.log(resultado2);
-
-// Convertir String a Number
-let miNumero = "10"; //Es una cadena 
-console.log(typeof miNumero); 
-let edad2 = Number(miNumero); // Esta es una función
-console.log(typeof edad2);
-if(isNaN(edad2)){ //No es un número = is Not a Number(devuelve un boolean)
-    console.log("Esta variable no contiene solo numeros")
-}
-else{ 
-    if(edad2 >= 18){
-    console.log("Puede votar");
-}
-else{
-    console.log("Muy joven para votar");
-}
-}
-
-// Operador ternario
-let resultado3 = edad2 >= 18 ? "Puede votar" : "Muy joven para votar";
-console.log(resultado3);
 
