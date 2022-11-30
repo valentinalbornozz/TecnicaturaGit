@@ -1,0 +1,41 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>240</x><y>130</y><w>350</w><h>650</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>90</y><w>160</w><h>40</h></coordinates><panel_attributes>Un dominio, dirrección</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>140</y><w>210</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
+-idOrden
+-producto[]: producto
+_-ContadorOdernes:int_
+_MAX_PRODUCTOS: int=10_
+--
++Orden()
++agregarProducto(producto:producto): void
++calcularTotal(): double
++mostrarOrden(): void
+--
+Responsabilidaddes
+--Crear objetos Orden
+--Administrar los productos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>100</y><w>90</w><h>30</h></coordinates><panel_attributes>TestVentas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;VentaTest&gt;&gt;
+--
++main(args: String[]): void
+--
+Responsabilidades
+-- Ejecutar la prueba de la apliación
+    de venta
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>130</y><w>270</w><h>250</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>460</y><w>260</w><h>250</h></coordinates><panel_attributes>&lt;&lt;Producto&gt;&gt;
+--
+-idProducto: int
+-nombre: String
+-precio: double
+-contadorProductos: int
+--
+-Producto()
++Producto(nombre: String, precio: double)
++getIdProducto(): int
++getNombre(): String
++setNombre(nombre: String): void
++getPrecio(): double
++setPrecio(precio:double): void
++tostring(): String
+--
+Responsabilidades
+-Crear objetos de tipo producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>340</y><w>240</w><h>140</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Un producto se agrega a una orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>100</y><w>400</w><h>30</h></coordinates><panel_attributes>lt=&lt;.&gt;</panel_attributes><additional_attributes>10;10;380;10</additional_attributes></element></diagram>
