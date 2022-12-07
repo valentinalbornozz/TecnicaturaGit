@@ -9,8 +9,8 @@ public class Arreglos_Ejercicio_2 {
 
         System.out.println("Guardando los datos en el arreglo");
         for(int i=0; i<5; i++){
-            System.out.println((i+1)) +". Digite un numero: ";
-            numero[i] = entrada.nextFloat();
+            System.out.print((i+1)+". Digite un numero: ");
+            arreglos[i] = entrada.nextFloat();
         }
         System.out.println("\nImprimir los elementos del arreglo");
                 for(int i=4; i>=0; i--){

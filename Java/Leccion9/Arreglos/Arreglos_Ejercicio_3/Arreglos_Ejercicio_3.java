@@ -1,4 +1,4 @@
-package Leccion9.Arreglos.Arrgelos_Ejercicio_3;
+package Leccion9.Arreglos.Arreglos_Ejercicio_3;
 
 import java.util.Scanner;
 
@@ -11,10 +11,10 @@ public class Arreglos_Ejercicio_3 {
 
         System.out.println("Guardando los datos en el arreglo");
         for(int i=0; i<5; i++){
-            System.out.println((i+1))+". Digite un numero: ";
+            System.out.print((i+1)+". Digite un numero: ");
             numeros[i] = entrada.nextFloat();
         }
-            if(numeros [i] > 0){
+            if(numeros[i] > 0){
                 positivos += numeros[i];
                 conteo_positivos++;
             }
